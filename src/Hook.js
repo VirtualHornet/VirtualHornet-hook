@@ -14,14 +14,6 @@ export default (props) =>{
 };
 
 
-  /* useEffect(()=>{
-    console.log('Hello')
-    document.addEventListener('click')
-    return () =>{
-        console.log('bye');    
-    }
-   },[]);*/
-
     return(
         <div>
             <p>Counter: {counter}</p>
